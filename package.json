@@ -1,0 +1,36 @@
+{
+  "name": "react-native-dontkillmyapp",
+  "version": "1.0.1",
+  "description": "A React Native library to help apps run in the background on different Android devices",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "data/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build && node ./copy_data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "background",
+    "dontkillmyapp",
+    "battery-optimization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-webview": ">=11.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.2",
+    "@types/react-native": "^0.70.0",
+    "typescript": "^4.9.0",
+    "react-native-webview": ">=11.0.0"
+  }
+}
