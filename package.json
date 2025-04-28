@@ -1,6 +1,6 @@
 {
   "name": "react-native-dontkillmyapp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React Native library to help apps run in the background on different Android devices",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
